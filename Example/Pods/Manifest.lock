@@ -1,0 +1,16 @@
+PODS:
+  - TaskObjc (0.1.0)
+
+DEPENDENCIES:
+  - TaskObjc (from `../`)
+
+EXTERNAL SOURCES:
+  TaskObjc:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TaskObjc: fa3598710ced4372c3ef7d7c5f794ffaab8c7516
+
+PODFILE CHECKSUM: 384cb7c724041bd134db989ef541914e8743a4ae
+
+COCOAPODS: 1.11.3

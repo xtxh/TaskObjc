@@ -1,0 +1,22 @@
+{
+  "name": "TaskObjc",
+  "version": "0.1.0",
+  "summary": "A short description of TaskObjc.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/v_keping/TaskObjc",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "v_keping": "v_keping@wanda.cn"
+  },
+  "source": {
+    "git": "https://github.com/v_keping/TaskObjc.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "TaskObjc/Classes/**/*"
+}

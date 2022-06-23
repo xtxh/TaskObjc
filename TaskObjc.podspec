@@ -18,14 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+
+  Task extends the functionality of NSOperation by adding conditions and observers. Its use is similar but slightly different than NSOperation. Instead of overriding start() and main() subclasses should override execute() and call finish() when the code has finished. `finish() `must be called whether the task completed successfully or in an error state. As long as these methods are called, all other state is managed automatically.
+
+  Conditions are added to an task to establish criteria required in order for the task to successfully run. For example a task that required location data could add a condition that made sure access had been granted to location services. Observers are added to a task and can react to the starting and ending of a task. For example an observer could start and stop an activity indicator while the task is executing.
                        DESC
 
-  s.homepage         = 'https://github.com/v_keping/TaskObjc'
+  s.homepage         = 'https://github.com/xtxh/TaskObjc.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'v_keping' => 'v_keping@wanda.cn' }
-  s.source           = { :git => 'https://github.com/v_keping/TaskObjc.git', :tag => s.version.to_s }
+  s.author           = { 'xtxh' => 'xtxh@outlook.com' }
+  s.source           = { :git => 'https://github.com/xtxh/TaskObjc.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'

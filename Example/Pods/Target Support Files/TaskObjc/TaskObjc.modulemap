@@ -1,0 +1,6 @@
+framework module TaskObjc {
+  umbrella header "TaskObjc-umbrella.h"
+
+  export *
+  module * { export * }
+}
