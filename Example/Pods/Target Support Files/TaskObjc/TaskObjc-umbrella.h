@@ -10,6 +10,13 @@
 #endif
 #endif
 
+#import "BlockTask.h"
+#import "ExclusivityController.h"
+#import "GroupTask.h"
+#import "Task.h"
+#import "TaskCondition.h"
+#import "TaskObserver.h"
+#import "TaskQueue.h"
 
 FOUNDATION_EXPORT double TaskObjcVersionNumber;
 FOUNDATION_EXPORT const unsigned char TaskObjcVersionString[];

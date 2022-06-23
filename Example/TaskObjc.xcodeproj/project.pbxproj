@@ -20,20 +20,6 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		6E4D713B2864347500061DA5 /* TaskCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D712F2864347400061DA5 /* TaskCondition.m */; };
-		6E4D713C2864347500061DA5 /* TaskCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D712F2864347400061DA5 /* TaskCondition.m */; };
-		6E4D713D2864347500061DA5 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D71312864347400061DA5 /* Task.m */; };
-		6E4D713E2864347500061DA5 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D71312864347400061DA5 /* Task.m */; };
-		6E4D713F2864347500061DA5 /* ExclusivityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D71322864347400061DA5 /* ExclusivityController.m */; };
-		6E4D71402864347500061DA5 /* ExclusivityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D71322864347400061DA5 /* ExclusivityController.m */; };
-		6E4D71412864347500061DA5 /* BlockTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D71342864347400061DA5 /* BlockTask.m */; };
-		6E4D71422864347500061DA5 /* BlockTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D71342864347400061DA5 /* BlockTask.m */; };
-		6E4D71432864347500061DA5 /* TaskObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D71352864347400061DA5 /* TaskObserver.m */; };
-		6E4D71442864347500061DA5 /* TaskObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D71352864347400061DA5 /* TaskObserver.m */; };
-		6E4D71452864347500061DA5 /* GroupTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D71362864347400061DA5 /* GroupTask.m */; };
-		6E4D71462864347500061DA5 /* GroupTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D71362864347400061DA5 /* GroupTask.m */; };
-		6E4D71472864347500061DA5 /* TaskQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D71372864347400061DA5 /* TaskQueue.m */; };
-		6E4D71482864347500061DA5 /* TaskQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4D71372864347400061DA5 /* TaskQueue.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		86EDDBE1CB918E771B3E292E /* Pods_TaskObjc_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEDF8B24D2ED462D661A0DE5 /* Pods_TaskObjc_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
@@ -73,20 +59,6 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6E4D712D2864347400061DA5 /* ExclusivityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExclusivityController.h; sourceTree = "<group>"; };
-		6E4D712E2864347400061DA5 /* TaskCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskCondition.h; sourceTree = "<group>"; };
-		6E4D712F2864347400061DA5 /* TaskCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskCondition.m; sourceTree = "<group>"; };
-		6E4D71302864347400061DA5 /* TaskObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskObserver.h; sourceTree = "<group>"; };
-		6E4D71312864347400061DA5 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
-		6E4D71322864347400061DA5 /* ExclusivityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExclusivityController.m; sourceTree = "<group>"; };
-		6E4D71332864347400061DA5 /* GroupTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupTask.h; sourceTree = "<group>"; };
-		6E4D71342864347400061DA5 /* BlockTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockTask.m; sourceTree = "<group>"; };
-		6E4D71352864347400061DA5 /* TaskObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskObserver.m; sourceTree = "<group>"; };
-		6E4D71362864347400061DA5 /* GroupTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupTask.m; sourceTree = "<group>"; };
-		6E4D71372864347400061DA5 /* TaskQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskQueue.m; sourceTree = "<group>"; };
-		6E4D71382864347500061DA5 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
-		6E4D71392864347500061DA5 /* BlockTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockTask.h; sourceTree = "<group>"; };
-		6E4D713A2864347500061DA5 /* TaskQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskQueue.h; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9574FBF52BDCD17EFB92318A /* TaskObjc.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TaskObjc.podspec; path = ../TaskObjc.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -206,33 +178,11 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				6E4D712C2864342400061DA5 /* Classes */,
 				9574FBF52BDCD17EFB92318A /* TaskObjc.podspec */,
 				9C9A7C685EA8394CFDF269CC /* README.md */,
 				4782E14D8C0599C3707A94B1 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		6E4D712C2864342400061DA5 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				6E4D71392864347500061DA5 /* BlockTask.h */,
-				6E4D71342864347400061DA5 /* BlockTask.m */,
-				6E4D712D2864347400061DA5 /* ExclusivityController.h */,
-				6E4D71322864347400061DA5 /* ExclusivityController.m */,
-				6E4D71332864347400061DA5 /* GroupTask.h */,
-				6E4D71362864347400061DA5 /* GroupTask.m */,
-				6E4D71382864347500061DA5 /* Task.h */,
-				6E4D71312864347400061DA5 /* Task.m */,
-				6E4D712E2864347400061DA5 /* TaskCondition.h */,
-				6E4D712F2864347400061DA5 /* TaskCondition.m */,
-				6E4D71302864347400061DA5 /* TaskObserver.h */,
-				6E4D71352864347400061DA5 /* TaskObserver.m */,
-				6E4D713A2864347500061DA5 /* TaskQueue.h */,
-				6E4D71372864347400061DA5 /* TaskQueue.m */,
-			);
-			name = Classes;
 			sourceTree = "<group>";
 		};
 		A62E4F855E59163B6E083954 /* Pods */ = {
@@ -414,15 +364,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E4D713D2864347500061DA5 /* Task.m in Sources */,
-				6E4D713F2864347500061DA5 /* ExclusivityController.m in Sources */,
-				6E4D713B2864347500061DA5 /* TaskCondition.m in Sources */,
-				6E4D71452864347500061DA5 /* GroupTask.m in Sources */,
-				6E4D71412864347500061DA5 /* BlockTask.m in Sources */,
-				6E4D71432864347500061DA5 /* TaskObserver.m in Sources */,
 				6003F59E195388D20070C39A /* KEPAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* KEPViewController.m in Sources */,
-				6E4D71472864347500061DA5 /* TaskQueue.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,14 +374,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E4D71442864347500061DA5 /* TaskObserver.m in Sources */,
-				6E4D713C2864347500061DA5 /* TaskCondition.m in Sources */,
-				6E4D71462864347500061DA5 /* GroupTask.m in Sources */,
-				6E4D713E2864347500061DA5 /* Task.m in Sources */,
-				6E4D71422864347500061DA5 /* BlockTask.m in Sources */,
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
-				6E4D71482864347500061DA5 /* TaskQueue.m in Sources */,
-				6E4D71402864347500061DA5 /* ExclusivityController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

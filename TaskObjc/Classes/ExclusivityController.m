@@ -9,8 +9,8 @@
 
 @interface ExclusivityController () {
     dispatch_queue_t _serialQueue;
-    
 }
+
 @property (nonatomic, strong) NSMutableDictionary *operations;
 
 @end
