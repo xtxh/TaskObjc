@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'TaskObjc_Example' do
+  pod 'TaskObjc', :path => '../'
+
+  target 'TaskObjc_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
