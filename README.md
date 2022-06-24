@@ -9,6 +9,8 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ```
+
+- (void)testSimpleOperation {
     XCTestExpectation *expectation = [XCTestExpectation new];
     
     SimpleTask *t1 = [SimpleTask new];
@@ -24,6 +26,95 @@ To run the example project, clone the repo, and run `pod install` from the Examp
     [queue addOperation:t1];
     
     [self waitForExpectations:@[expectation] timeout:1];
+}
+
+-(void)testObservers {
+    XCTestExpectation *startExpectation = [[XCTestExpectation alloc] initWithDescription:@"start task"];
+    XCTestExpectation *finishExpectation = [[XCTestExpectation alloc] initWithDescription:@"end task"];
+    
+    SimpleTask *t1 = [SimpleTask new];
+    TaskObserver *observer = [[TaskObserver alloc] initWithStartHandler:^(Task * _Nonnull task) {
+        XCTAssertFalse(t1.taskComplete);
+        [startExpectation fulfill];
+    } spawnHandler:^(Task * _Nonnull task, BaseTask * _Nonnull newTask) {
+        XCTAssertFalse(t1.taskComplete);
+        [finishExpectation fulfill];
+    } finishHandler:^(Task * _Nonnull task, NSArray<NSError *> * _Nonnull errors) {
+        XCTAssertTrue(t1.taskComplete);
+        [finishExpectation fulfill];
+    }];
+    [t1 addObserver:observer];
+    
+    TaskQueue *queue = [TaskQueue new];
+    [queue addOperation:t1];
+    
+    [self waitForExpectations:@[startExpectation, finishExpectation] timeout:1];
+}
+
+-(void)testStartAndFinishHandlersNotCancelled {
+    TestTask *t = [TestTask new];
+    
+    XCTestExpectation *startExpectation = [self expectationWithDescription:@"start"];
+    XCTestExpectation *spaenExpectation = [self expectationWithDescription:@"spawn"];
+    XCTestExpectation *finishExpectation = [self expectationWithDescription:@"finish"];
+    
+    TaskObserver *observer = [[TaskObserver alloc] initWithStartHandler:^(Task * _Nonnull task) {
+        [startExpectation fulfill];
+    } spawnHandler:^(Task * _Nonnull task, BaseTask * _Nonnull newTask) {
+        [spaenExpectation fulfill];
+    } finishHandler:^(Task * _Nonnull task, NSArray<NSError *> * _Nonnull errors) {
+        [finishExpectation fulfill];
+    }];
+    
+    [t addObserver:observer];
+    
+    [self.taskQueue addTask:t];
+    
+    [self waitForExpectationsWithTimeout:0.5 handler:nil];
+}
+
+-(void)testMutualExclusivity {
+    BlockTask *t1 = [self blockOperationWithDelay];
+    BlockTask *t2 = [self blockOperationWithDelay];
+    BlockTask *t3 = [self blockOperationWithDelay];
+    
+    MutuallyExclusive *mutualExclusivityCondition = [[MutuallyExclusive alloc] initWithPrimaryCategory:@"TEST_CATEGORY" subCategory:@"FOO"];
+    [t1 addCondition:mutualExclusivityCondition];
+    [t2 addCondition:mutualExclusivityCondition];
+    [t3 addCondition:mutualExclusivityCondition];
+    
+    __block NSTimeInterval t1EndTime = 0;
+    __block NSTimeInterval t2StartTime = 0;
+    __block NSTimeInterval t2EndTime = 0;
+    __block NSTimeInterval t3StartTime = 0;
+    
+    XCTestExpectation *expectation = [self expectationWithDescription:@"Last operation finished."];
+    
+    [t1 addObserver:[[TaskObserver alloc]initWithStartHandler:nil spawnHandler:nil finishHandler:^(Task * _Nonnull task, NSArray<NSError *> * _Nonnull errors) {
+        t1EndTime = [NSDate timeIntervalSinceReferenceDate];
+    }]];
+    [t2 addObserver:[[TaskObserver alloc]initWithStartHandler:^(Task * _Nonnull task) {
+        t2StartTime = [NSDate timeIntervalSinceReferenceDate];
+    } spawnHandler:nil finishHandler:^(Task * _Nonnull task, NSArray<NSError *> * _Nonnull errors) {
+        t2EndTime = [NSDate timeIntervalSinceReferenceDate];
+    }]];
+    
+    [t3 addObserver:[[TaskObserver alloc]initWithStartHandler:^(Task * _Nonnull task) {
+        t3StartTime = [NSDate timeIntervalSinceReferenceDate];
+    } spawnHandler:nil finishHandler:^(Task * _Nonnull task, NSArray<NSError *> * _Nonnull errors) {
+        [expectation fulfill];
+    }]];
+    
+    [self.taskQueue addTasks:@[t1, t2, t3]];
+    
+    [self waitForExpectationsWithTimeout:1 handler:nil];
+    
+    XCTAssertTrue(t2StartTime > t1EndTime);
+    XCTAssertTrue(t3StartTime > t2EndTime);
+    
+    NSLog(@"t1EndTime = %@, t2StartTime = %@, t2EndTime = %@, t3StartTime = %@", @(t1EndTime), @(t2StartTime), @(t2EndTime), @(t3StartTime));
+}
+
 ```
 
 ## Requirements
