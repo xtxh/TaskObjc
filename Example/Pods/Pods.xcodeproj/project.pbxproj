@@ -7,40 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E2DE19095200DE08C4ACE4E4C55CDE3 /* Pods-TaskObjc_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB2461BF8BE17D6C12F32A1AA400A9A6 /* Pods-TaskObjc_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1BBAB156577D9DB973AFDE968E21A430 /* Task.h in Headers */ = {isa = PBXBuildFile; fileRef = 09AC33829C15C517EA274E0CA0B071A3 /* Task.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21B5E34ACF97D79A6BC2328D05AF8E3B /* BlockTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 06412092C56F2874D14B2C1E1DE4315A /* BlockTask.m */; };
-		36876D5970A01E8FC92E0B16598B90FC /* GroupTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C453A64CBAD5F06FA77F456843B79D3 /* GroupTask.m */; };
-		4725C98DCFAE62DB3F9145FF213EF978 /* ExclusivityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AA2BD577CF579055543C98A8C9AA3E1 /* ExclusivityController.m */; };
+		29F8273500FBAA6248C17620FF88EE25 /* TaskObjc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6806A2C56BE5086E8B2707EEAAC2B7D9 /* TaskObjc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		385D386CE79C7633469D493DD2AC6550 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3E9F9F7A454984E5BA43CE0910488DE2 /* TaskCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2675A3C18A5A0AEF1C0F90640B8EFE7A /* TaskCondition.m */; };
+		4AB120E37648FD99818852C5F301C45E /* TaskObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = EDBEEAB1F50988AB480AA0AE22B24EE6 /* TaskObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B82C98FB4A8EAA694B491AFBBC780E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		4C8D002CCBC034A3142AFD0BC8763BDC /* TaskObjc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21A61BEFA3D5B633CB4DB435726EEC66 /* TaskObjc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F559B27F06111135F9283D11ECC8E44 /* TaskQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F0BA6107B419920B9BDE6BAFCB260D7 /* TaskQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7011321BD3A921D92E78BA2580954C45 /* TaskQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D458DC57580FDE4BB666ADACFD8B9859 /* TaskQueue.m */; };
-		7CEDBE1FE084C6E349CEB29854E97756 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E827646B80E0BFD18EFAA4ABD61972F /* Task.m */; };
-		81D7760162CF98641DF81DBE887F7480 /* TaskObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B4FE53CCCFFE51D57534246D99C1E3E /* TaskObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8BEB5A70CCD93DF76C4D346ECE007D11 /* GroupTask.h in Headers */ = {isa = PBXBuildFile; fileRef = A8B02E173EE6CE923951B8734FDA47B7 /* GroupTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		964CE416439F19980E7CA624B98FBF79 /* BlockTask.h in Headers */ = {isa = PBXBuildFile; fileRef = AF63A8264C75A8EC7AC4DA7E1622DFDE /* BlockTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A119A50A4F83E842B48A06782E2BF428 /* Pods-TaskObjc_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D90937A562AE3FFDDA981D3DDCEFAE3 /* Pods-TaskObjc_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A572FDDD04D2FAA45976CF3842BF81F1 /* Pods-TaskObjc_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E32B1EFB56A84770C1A7DFBB8EFC8CD4 /* Pods-TaskObjc_Tests-dummy.m */; };
-		B09829ACE919DF547668A29967121EAB /* TaskCondition.h in Headers */ = {isa = PBXBuildFile; fileRef = AF05171BB4643AD5994E61EB4A522821 /* TaskCondition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D984307C4C0B7ED8F755FEDCAC97AD3D /* TaskCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7ABD7D3F7313E6E36B1AB1ED16D7B6 /* TaskCondition.m */; };
-		D9928867399C43D8629DE51F12B781F6 /* ExclusivityController.h in Headers */ = {isa = PBXBuildFile; fileRef = CF6549C825AA49BD239D2561AE57742B /* ExclusivityController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DBEDD7EBB44344681327F37092AA0FBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E1EC929DF0ECFA7AA90B0006BCFE0117 /* TaskObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1FE265EDBC6EE7056715494F96F885 /* TaskObserver.m */; };
-		F4E85956306057516CD28D80F888DCFA /* Pods-TaskObjc_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C18840A5443152F5D72C63B903BB7D /* Pods-TaskObjc_Example-dummy.m */; };
-		F54A5C3B6DD7E9CFF2BF2FC6E83219A9 /* TaskObjc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F29728A044C4A2AA609BCAD5B3D87F /* TaskObjc-dummy.m */; };
-		F58AF1D494ED7E8D9E29B73DD300E1B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4FB6E592A805DCA24A139BC1279637BE /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = A09081E6D2926D67473497543E253324 /* Task.m */; };
+		514CDF04C1DEE12E383C47CB2D5C2D5A /* ExclusivityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC6B93BF1CAC374B7C51F5C1685E571 /* ExclusivityController.m */; };
+		52F7D60E9733820AB1EF40554B7FAF27 /* GroupTask.m in Sources */ = {isa = PBXBuildFile; fileRef = A90CC0E532864DA62D5D6F4562DE3A74 /* GroupTask.m */; };
+		60018FDDCBB3B95DCC4561C1A92A5454 /* Pods-TaskObjc_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A52456FB7EC9100B66CE19E510EA998 /* Pods-TaskObjc_Tests-dummy.m */; };
+		7202F8534AD71EACE1458674ACD7FC7D /* GroupTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BA0400C5EE48CEFD0082C535EEB61C1 /* GroupTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AFDE6027C7B1C941956C743357BFDD2 /* Task.h in Headers */ = {isa = PBXBuildFile; fileRef = B428471B4CA39DA6EDA0D9D91CC12120 /* Task.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B15DAF5D42D105BBAA74F174B54FB39 /* TaskQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1685017164F5C5150BE6FAB27332771D /* TaskQueue.m */; };
+		9C9229D8D53C34A6ABE7789B79915611 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A119A50A4F83E842B48A06782E2BF428 /* Pods-TaskObjc_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E51867CEB0E8DCE69427D8B75E9EFF9B /* Pods-TaskObjc_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE87D0DA9231ADD89D78E14F705F598E /* TaskCondition.h in Headers */ = {isa = PBXBuildFile; fileRef = 229FA750E63311EE5F2779268BCA881F /* TaskCondition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEDAC7B7A5B7B3FBA330EA1A15418BA3 /* TaskObjc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5E15916CCD574FD94FE0EF7EEF4239 /* TaskObjc-dummy.m */; };
+		AF0029C22A2190B5B10275DBEB4C2081 /* ExclusivityController.h in Headers */ = {isa = PBXBuildFile; fileRef = FCC1C422671CDF7E9BD40AFDFCF5E880 /* ExclusivityController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B93424DF7A4574E70D87842DFC54A7B1 /* TaskQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = B70114CAE0D9CDB7F10DB9C47100A6D4 /* TaskQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C66E137D283A8863F7360A6FAF6B738A /* BlockTask.m in Sources */ = {isa = PBXBuildFile; fileRef = A8ACFAE2597500D7EA7B1E2EFBC1223D /* BlockTask.m */; };
+		DF7E5B5952A1462FE3FF4097AAF5AFF5 /* Pods-TaskObjc_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63538BF6D35209583791768E876BC3C4 /* Pods-TaskObjc_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F491542BD16D282ABB4E8286173894BB /* TaskObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 0562A982BD5829C20A56C45145128B53 /* TaskObjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4E85956306057516CD28D80F888DCFA /* Pods-TaskObjc_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1B7A23D127C32CD2C0603DA9827CE2 /* Pods-TaskObjc_Example-dummy.m */; };
+		FC5EB6967DDEB04E0254232C9FEB539F /* BlockTask.h in Headers */ = {isa = PBXBuildFile; fileRef = FF63BA2C7E745A8AA6366B488E9085D2 /* BlockTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFF295F6235295C5AD3C282717333A7 /* TaskObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8771C3FA888F88C4CD8B7EFE0C636C /* TaskObserver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		63AA2CB6461B39FE22951C3596EA31DD /* PBXContainerItemProxy */ = {
+		3D85EE8F3AD1F908C27A58006D4B7920 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D3ADF48D6739E853AD3EE48B720BCF5A;
 			remoteInfo = TaskObjc;
 		};
-		AEAE84A9804B57BE1A3DB9F30361E808 /* PBXContainerItemProxy */ = {
+		B0489BD802CC42300FE59D084E59BB67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3ADF48D6739E853AD3EE48B720BCF5A;
+			remoteInfo = TaskObjc;
+		};
+		DB7C2D01970322E7F43EFD1CF1FAEA9C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -50,71 +58,57 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06412092C56F2874D14B2C1E1DE4315A /* BlockTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlockTask.m; path = TaskObjc/Classes/BlockTask.m; sourceTree = "<group>"; };
-		09AC33829C15C517EA274E0CA0B071A3 /* Task.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Task.h; path = TaskObjc/Classes/Task.h; sourceTree = "<group>"; };
-		108DCBE6E40F924DDD6C36100C4359B3 /* TaskObjc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TaskObjc.modulemap; sourceTree = "<group>"; };
-		1210327F5EEC2610CC95EF729D950091 /* Pods-TaskObjc_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaskObjc_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		18B3DC4A3C1EE7EFD6540AA1774213BF /* Pods-TaskObjc_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaskObjc_Example-Info.plist"; sourceTree = "<group>"; };
-		1E827646B80E0BFD18EFAA4ABD61972F /* Task.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Task.m; path = TaskObjc/Classes/Task.m; sourceTree = "<group>"; };
-		215258B6B75DC6712823C3AE42432E7D /* Pods-TaskObjc_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TaskObjc_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		21A61BEFA3D5B633CB4DB435726EEC66 /* TaskObjc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TaskObjc-umbrella.h"; sourceTree = "<group>"; };
-		271E46788E2C261D11627392BA5259BC /* Pods-TaskObjc_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskObjc_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2AA2BD577CF579055543C98A8C9AA3E1 /* ExclusivityController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExclusivityController.m; path = TaskObjc/Classes/ExclusivityController.m; sourceTree = "<group>"; };
-		2D90937A562AE3FFDDA981D3DDCEFAE3 /* Pods-TaskObjc_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TaskObjc_Example-umbrella.h"; sourceTree = "<group>"; };
-		312E37767712E3AD2ADC9AFE06355531 /* Pods-TaskObjc_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskObjc_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		31F29728A044C4A2AA609BCAD5B3D87F /* TaskObjc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TaskObjc-dummy.m"; sourceTree = "<group>"; };
-		484059E1784AB0D40928D9AAB4D03A0B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		4C5EFE61D5280A21AFC22BF9383BEE80 /* Pods-TaskObjc_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskObjc_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5A1FE265EDBC6EE7056715494F96F885 /* TaskObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TaskObserver.m; path = TaskObjc/Classes/TaskObserver.m; sourceTree = "<group>"; };
-		5B4FE53CCCFFE51D57534246D99C1E3E /* TaskObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TaskObserver.h; path = TaskObjc/Classes/TaskObserver.h; sourceTree = "<group>"; };
-		5B586372534D105A0B02D4E76A889BF1 /* TaskObjc-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TaskObjc-Info.plist"; sourceTree = "<group>"; };
-		68E069CAFCC65388C627C1631797AC23 /* Pods-TaskObjc_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TaskObjc_Example.modulemap"; sourceTree = "<group>"; };
+		0417CB08E45B4B09D67D66B0280519E3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0562A982BD5829C20A56C45145128B53 /* TaskObjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TaskObjc.h; path = TaskObjc/Classes/TaskObjc.h; sourceTree = "<group>"; };
+		0BA0400C5EE48CEFD0082C535EEB61C1 /* GroupTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GroupTask.h; path = TaskObjc/Classes/GroupTask.h; sourceTree = "<group>"; };
+		1685017164F5C5150BE6FAB27332771D /* TaskQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TaskQueue.m; path = TaskObjc/Classes/TaskQueue.m; sourceTree = "<group>"; };
+		16ED8F6E3B0BF4E05858C3C1A4EC2D8F /* Pods-TaskObjc_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskObjc_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		229FA750E63311EE5F2779268BCA881F /* TaskCondition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TaskCondition.h; path = TaskObjc/Classes/TaskCondition.h; sourceTree = "<group>"; };
+		24F153EF489A4D417A4497E8D7B6B5EA /* Pods-TaskObjc_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskObjc_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2675A3C18A5A0AEF1C0F90640B8EFE7A /* TaskCondition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TaskCondition.m; path = TaskObjc/Classes/TaskCondition.m; sourceTree = "<group>"; };
+		33BD121BD4CB6961A05D23CAECD0B037 /* Pods-TaskObjc_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TaskObjc_Example.modulemap"; sourceTree = "<group>"; };
+		3E5FEBB0E404A416A56AC33F3E175703 /* TaskObjc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TaskObjc.debug.xcconfig; sourceTree = "<group>"; };
+		4FC6B93BF1CAC374B7C51F5C1685E571 /* ExclusivityController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExclusivityController.m; path = TaskObjc/Classes/ExclusivityController.m; sourceTree = "<group>"; };
+		55C921532AD660EA8483F70381D1C6AF /* Pods-TaskObjc_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskObjc_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		56B92A84181C521A6B85FAD4B008C3AA /* Pods-TaskObjc_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TaskObjc_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5DD0B4C6BFA53DF9A35571C9F5DF31B3 /* TaskObjc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TaskObjc.modulemap; sourceTree = "<group>"; };
+		63538BF6D35209583791768E876BC3C4 /* Pods-TaskObjc_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TaskObjc_Tests-umbrella.h"; sourceTree = "<group>"; };
+		67B4DF6C5D0548A12474647DA9B321F6 /* TaskObjc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TaskObjc.release.xcconfig; sourceTree = "<group>"; };
+		6806A2C56BE5086E8B2707EEAAC2B7D9 /* TaskObjc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TaskObjc-umbrella.h"; sourceTree = "<group>"; };
+		6C1B7A23D127C32CD2C0603DA9827CE2 /* Pods-TaskObjc_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TaskObjc_Example-dummy.m"; sourceTree = "<group>"; };
+		6F5E15916CCD574FD94FE0EF7EEF4239 /* TaskObjc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TaskObjc-dummy.m"; sourceTree = "<group>"; };
 		70B1523D9FBB187CADC3799E1FD363DE /* TaskObjc */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TaskObjc; path = TaskObjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		78DE8CDA1CFBB1028BCBFB8B6EAA94F6 /* Pods-TaskObjc_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaskObjc_Tests-Info.plist"; sourceTree = "<group>"; };
-		7C453A64CBAD5F06FA77F456843B79D3 /* GroupTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GroupTask.m; path = TaskObjc/Classes/GroupTask.m; sourceTree = "<group>"; };
-		80C27DB0C1D21DDA7FAED4FFE0A6B0F4 /* TaskObjc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TaskObjc.debug.xcconfig; sourceTree = "<group>"; };
+		739F7B5ACD4E489758CEE995CADF890E /* Pods-TaskObjc_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaskObjc_Tests-Info.plist"; sourceTree = "<group>"; };
+		835D6D7AACCEBD040717A815DB7FD4E6 /* TaskObjc-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TaskObjc-Info.plist"; sourceTree = "<group>"; };
 		84B560E1645B53EAE2B84167EAA4C7E2 /* Pods-TaskObjc_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TaskObjc_Tests"; path = Pods_TaskObjc_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DFCB84DE2CCED768D57F0110870BF98 /* Pods-TaskObjc_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaskObjc_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8A52456FB7EC9100B66CE19E510EA998 /* Pods-TaskObjc_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TaskObjc_Tests-dummy.m"; sourceTree = "<group>"; };
 		9437AD32F355DAC86A4B3EB64500ABC8 /* Pods-TaskObjc_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TaskObjc_Example"; path = Pods_TaskObjc_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C5BD0062C87160BF12DA6385B1647E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9663219B11351D206070112C902B1F74 /* Pods-TaskObjc_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskObjc_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F057068821D939535A9DE04893A34F8 /* Pods-TaskObjc_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskObjc_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9F0BA6107B419920B9BDE6BAFCB260D7 /* TaskQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TaskQueue.h; path = TaskObjc/Classes/TaskQueue.h; sourceTree = "<group>"; };
-		A38B403714F4FD515AA935B281C8ACDF /* TaskObjc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TaskObjc-prefix.pch"; sourceTree = "<group>"; };
-		A3F2032BB8E11D6ED8C3E78D44CA566A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		A8227B0A17222EEE6441A8707255102F /* Pods-TaskObjc_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TaskObjc_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A8B02E173EE6CE923951B8734FDA47B7 /* GroupTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GroupTask.h; path = TaskObjc/Classes/GroupTask.h; sourceTree = "<group>"; };
-		A8D345C419503F1FB473F0822AA13072 /* Pods-TaskObjc_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TaskObjc_Example-frameworks.sh"; sourceTree = "<group>"; };
-		AB0248D19C0C1ED212E14DB9F231F730 /* TaskObjc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TaskObjc.release.xcconfig; sourceTree = "<group>"; };
-		ACDE909FD0228264C3CE01D99FA13191 /* Pods-TaskObjc_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TaskObjc_Tests.modulemap"; sourceTree = "<group>"; };
-		AF05171BB4643AD5994E61EB4A522821 /* TaskCondition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TaskCondition.h; path = TaskObjc/Classes/TaskCondition.h; sourceTree = "<group>"; };
-		AF63A8264C75A8EC7AC4DA7E1622DFDE /* BlockTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlockTask.h; path = TaskObjc/Classes/BlockTask.h; sourceTree = "<group>"; };
-		B5C18840A5443152F5D72C63B903BB7D /* Pods-TaskObjc_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TaskObjc_Example-dummy.m"; sourceTree = "<group>"; };
-		C9C641AFE8984A35DC2CD604B81BE59F /* TaskObjc.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TaskObjc.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CF6549C825AA49BD239D2561AE57742B /* ExclusivityController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExclusivityController.h; path = TaskObjc/Classes/ExclusivityController.h; sourceTree = "<group>"; };
-		D458DC57580FDE4BB666ADACFD8B9859 /* TaskQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TaskQueue.m; path = TaskObjc/Classes/TaskQueue.m; sourceTree = "<group>"; };
-		E32B1EFB56A84770C1A7DFBB8EFC8CD4 /* Pods-TaskObjc_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TaskObjc_Tests-dummy.m"; sourceTree = "<group>"; };
-		EB2461BF8BE17D6C12F32A1AA400A9A6 /* Pods-TaskObjc_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TaskObjc_Tests-umbrella.h"; sourceTree = "<group>"; };
-		EF7ABD7D3F7313E6E36B1AB1ED16D7B6 /* TaskCondition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TaskCondition.m; path = TaskObjc/Classes/TaskCondition.m; sourceTree = "<group>"; };
+		A09081E6D2926D67473497543E253324 /* Task.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Task.m; path = TaskObjc/Classes/Task.m; sourceTree = "<group>"; };
+		A0AE299900AD064B89230884A296BBB5 /* Pods-TaskObjc_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TaskObjc_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A8ACFAE2597500D7EA7B1E2EFBC1223D /* BlockTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlockTask.m; path = TaskObjc/Classes/BlockTask.m; sourceTree = "<group>"; };
+		A90CC0E532864DA62D5D6F4562DE3A74 /* GroupTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GroupTask.m; path = TaskObjc/Classes/GroupTask.m; sourceTree = "<group>"; };
+		A9447BC006ECE4DEA5E1AD1D07295EC8 /* TaskObjc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TaskObjc-prefix.pch"; sourceTree = "<group>"; };
+		ACDE4E61612E4209C4B1B191FB84BA38 /* Pods-TaskObjc_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TaskObjc_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AF8771C3FA888F88C4CD8B7EFE0C636C /* TaskObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TaskObserver.m; path = TaskObjc/Classes/TaskObserver.m; sourceTree = "<group>"; };
+		B428471B4CA39DA6EDA0D9D91CC12120 /* Task.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Task.h; path = TaskObjc/Classes/Task.h; sourceTree = "<group>"; };
+		B70114CAE0D9CDB7F10DB9C47100A6D4 /* TaskQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TaskQueue.h; path = TaskObjc/Classes/TaskQueue.h; sourceTree = "<group>"; };
+		B8A68C40712D63BF64B2653C36094834 /* TaskObjc.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TaskObjc.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD7256EDF2FAE657FB06892D0A6D2AD2 /* Pods-TaskObjc_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaskObjc_Example-Info.plist"; sourceTree = "<group>"; };
+		D3A88683080E5810843A4072E5DCD517 /* Pods-TaskObjc_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TaskObjc_Tests.modulemap"; sourceTree = "<group>"; };
+		DEBCA1F13553C6F6771D3588A63B143A /* Pods-TaskObjc_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaskObjc_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E51867CEB0E8DCE69427D8B75E9EFF9B /* Pods-TaskObjc_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TaskObjc_Example-umbrella.h"; sourceTree = "<group>"; };
+		E9DB215EC229EF067B33E1E76DD805B0 /* Pods-TaskObjc_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaskObjc_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EDBEEAB1F50988AB480AA0AE22B24EE6 /* TaskObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TaskObserver.h; path = TaskObjc/Classes/TaskObserver.h; sourceTree = "<group>"; };
+		F7CA188B6488D1EAE35AFE46317CD8DF /* Pods-TaskObjc_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TaskObjc_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		FCC1C422671CDF7E9BD40AFDFCF5E880 /* ExclusivityController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExclusivityController.h; path = TaskObjc/Classes/ExclusivityController.h; sourceTree = "<group>"; };
+		FF63BA2C7E745A8AA6366B488E9085D2 /* BlockTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlockTask.h; path = TaskObjc/Classes/BlockTask.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		076CAF03F26B688FB987CA0FA64C1BEC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DBEDD7EBB44344681327F37092AA0FBE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5264866CB960F8218903378D6C0D1D29 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F58AF1D494ED7E8D9E29B73DD300E1B7 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7FE91B67BEC0059C400DADC0D0E31021 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -123,40 +117,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8124E0883D4A8C5F149AFCD43631D305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385D386CE79C7633469D493DD2AC6550 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA71C9F63494DD89B6A2E35D040B21B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C9229D8D53C34A6ABE7789B79915611 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1C05FEFD0C20E4FA0F57D5C74050B4C7 /* Pods-TaskObjc_Example */ = {
+		4685427EC9B6549C0D6633D52913DB9A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				68E069CAFCC65388C627C1631797AC23 /* Pods-TaskObjc_Example.modulemap */,
-				A8227B0A17222EEE6441A8707255102F /* Pods-TaskObjc_Example-acknowledgements.markdown */,
-				1210327F5EEC2610CC95EF729D950091 /* Pods-TaskObjc_Example-acknowledgements.plist */,
-				B5C18840A5443152F5D72C63B903BB7D /* Pods-TaskObjc_Example-dummy.m */,
-				A8D345C419503F1FB473F0822AA13072 /* Pods-TaskObjc_Example-frameworks.sh */,
-				18B3DC4A3C1EE7EFD6540AA1774213BF /* Pods-TaskObjc_Example-Info.plist */,
-				2D90937A562AE3FFDDA981D3DDCEFAE3 /* Pods-TaskObjc_Example-umbrella.h */,
-				271E46788E2C261D11627392BA5259BC /* Pods-TaskObjc_Example.debug.xcconfig */,
-				4C5EFE61D5280A21AFC22BF9383BEE80 /* Pods-TaskObjc_Example.release.xcconfig */,
+				5DD0B4C6BFA53DF9A35571C9F5DF31B3 /* TaskObjc.modulemap */,
+				6F5E15916CCD574FD94FE0EF7EEF4239 /* TaskObjc-dummy.m */,
+				835D6D7AACCEBD040717A815DB7FD4E6 /* TaskObjc-Info.plist */,
+				A9447BC006ECE4DEA5E1AD1D07295EC8 /* TaskObjc-prefix.pch */,
+				6806A2C56BE5086E8B2707EEAAC2B7D9 /* TaskObjc-umbrella.h */,
+				3E5FEBB0E404A416A56AC33F3E175703 /* TaskObjc.debug.xcconfig */,
+				67B4DF6C5D0548A12474647DA9B321F6 /* TaskObjc.release.xcconfig */,
 			);
-			name = "Pods-TaskObjc_Example";
-			path = "Target Support Files/Pods-TaskObjc_Example";
-			sourceTree = "<group>";
-		};
-		51E27243F06EF3A2353D27231BE84B54 /* Pods-TaskObjc_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				ACDE909FD0228264C3CE01D99FA13191 /* Pods-TaskObjc_Tests.modulemap */,
-				215258B6B75DC6712823C3AE42432E7D /* Pods-TaskObjc_Tests-acknowledgements.markdown */,
-				8DFCB84DE2CCED768D57F0110870BF98 /* Pods-TaskObjc_Tests-acknowledgements.plist */,
-				E32B1EFB56A84770C1A7DFBB8EFC8CD4 /* Pods-TaskObjc_Tests-dummy.m */,
-				78DE8CDA1CFBB1028BCBFB8B6EAA94F6 /* Pods-TaskObjc_Tests-Info.plist */,
-				EB2461BF8BE17D6C12F32A1AA400A9A6 /* Pods-TaskObjc_Tests-umbrella.h */,
-				312E37767712E3AD2ADC9AFE06355531 /* Pods-TaskObjc_Tests.debug.xcconfig */,
-				9F057068821D939535A9DE04893A34F8 /* Pods-TaskObjc_Tests.release.xcconfig */,
-			);
-			name = "Pods-TaskObjc_Tests";
-			path = "Target Support Files/Pods-TaskObjc_Tests";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TaskObjc";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -167,31 +159,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		61913019C86EBE6D091445BC28F334C3 /* Pod */ = {
+		AF8AB24B429CD49B759C993FDCCD2927 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				A3F2032BB8E11D6ED8C3E78D44CA566A /* LICENSE */,
-				484059E1784AB0D40928D9AAB4D03A0B /* README.md */,
-				C9C641AFE8984A35DC2CD604B81BE59F /* TaskObjc.podspec */,
+				0417CB08E45B4B09D67D66B0280519E3 /* LICENSE */,
+				94C5BD0062C87160BF12DA6385B1647E /* README.md */,
+				B8A68C40712D63BF64B2653C36094834 /* TaskObjc.podspec */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		68EAEFA6615915069B20104F5B9F19AD /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				ECABB0D8CCE4FC8161BFC05CFB82E1CA /* TaskObjc */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		8E55B24AE37E1D8DEAC34A895FAA5BFE /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1C05FEFD0C20E4FA0F57D5C74050B4C7 /* Pods-TaskObjc_Example */,
-				51E27243F06EF3A2353D27231BE84B54 /* Pods-TaskObjc_Tests */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		C16A1422B63D8F761D1E98AABDA10312 /* Products */ = {
@@ -204,14 +179,48 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C6B2E6E609FB126E854B0398DA1EC55D /* Pods-TaskObjc_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D3A88683080E5810843A4072E5DCD517 /* Pods-TaskObjc_Tests.modulemap */,
+				A0AE299900AD064B89230884A296BBB5 /* Pods-TaskObjc_Tests-acknowledgements.markdown */,
+				DEBCA1F13553C6F6771D3588A63B143A /* Pods-TaskObjc_Tests-acknowledgements.plist */,
+				8A52456FB7EC9100B66CE19E510EA998 /* Pods-TaskObjc_Tests-dummy.m */,
+				F7CA188B6488D1EAE35AFE46317CD8DF /* Pods-TaskObjc_Tests-frameworks.sh */,
+				739F7B5ACD4E489758CEE995CADF890E /* Pods-TaskObjc_Tests-Info.plist */,
+				63538BF6D35209583791768E876BC3C4 /* Pods-TaskObjc_Tests-umbrella.h */,
+				9663219B11351D206070112C902B1F74 /* Pods-TaskObjc_Tests.debug.xcconfig */,
+				55C921532AD660EA8483F70381D1C6AF /* Pods-TaskObjc_Tests.release.xcconfig */,
+			);
+			name = "Pods-TaskObjc_Tests";
+			path = "Target Support Files/Pods-TaskObjc_Tests";
+			sourceTree = "<group>";
+		};
+		CED9929EB51AFFE67381792FBE7973D2 /* Pods-TaskObjc_Example */ = {
+			isa = PBXGroup;
+			children = (
+				33BD121BD4CB6961A05D23CAECD0B037 /* Pods-TaskObjc_Example.modulemap */,
+				56B92A84181C521A6B85FAD4B008C3AA /* Pods-TaskObjc_Example-acknowledgements.markdown */,
+				E9DB215EC229EF067B33E1E76DD805B0 /* Pods-TaskObjc_Example-acknowledgements.plist */,
+				6C1B7A23D127C32CD2C0603DA9827CE2 /* Pods-TaskObjc_Example-dummy.m */,
+				ACDE4E61612E4209C4B1B191FB84BA38 /* Pods-TaskObjc_Example-frameworks.sh */,
+				BD7256EDF2FAE657FB06892D0A6D2AD2 /* Pods-TaskObjc_Example-Info.plist */,
+				E51867CEB0E8DCE69427D8B75E9EFF9B /* Pods-TaskObjc_Example-umbrella.h */,
+				16ED8F6E3B0BF4E05858C3C1A4EC2D8F /* Pods-TaskObjc_Example.debug.xcconfig */,
+				24F153EF489A4D417A4497E8D7B6B5EA /* Pods-TaskObjc_Example.release.xcconfig */,
+			);
+			name = "Pods-TaskObjc_Example";
+			path = "Target Support Files/Pods-TaskObjc_Example";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				68EAEFA6615915069B20104F5B9F19AD /* Development Pods */,
+				E53A77899B8BAE4820664739C5493E7C /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				C16A1422B63D8F761D1E98AABDA10312 /* Products */,
-				8E55B24AE37E1D8DEAC34A895FAA5BFE /* Targets Support Files */,
+				E2C0670510F2330357EE68269A9412FE /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -223,40 +232,43 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D598919EA0DFCD1274787C6EAF675428 /* Support Files */ = {
+		E2C0670510F2330357EE68269A9412FE /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				108DCBE6E40F924DDD6C36100C4359B3 /* TaskObjc.modulemap */,
-				31F29728A044C4A2AA609BCAD5B3D87F /* TaskObjc-dummy.m */,
-				5B586372534D105A0B02D4E76A889BF1 /* TaskObjc-Info.plist */,
-				A38B403714F4FD515AA935B281C8ACDF /* TaskObjc-prefix.pch */,
-				21A61BEFA3D5B633CB4DB435726EEC66 /* TaskObjc-umbrella.h */,
-				80C27DB0C1D21DDA7FAED4FFE0A6B0F4 /* TaskObjc.debug.xcconfig */,
-				AB0248D19C0C1ED212E14DB9F231F730 /* TaskObjc.release.xcconfig */,
+				CED9929EB51AFFE67381792FBE7973D2 /* Pods-TaskObjc_Example */,
+				C6B2E6E609FB126E854B0398DA1EC55D /* Pods-TaskObjc_Tests */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TaskObjc";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		ECABB0D8CCE4FC8161BFC05CFB82E1CA /* TaskObjc */ = {
+		E53A77899B8BAE4820664739C5493E7C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AF63A8264C75A8EC7AC4DA7E1622DFDE /* BlockTask.h */,
-				06412092C56F2874D14B2C1E1DE4315A /* BlockTask.m */,
-				CF6549C825AA49BD239D2561AE57742B /* ExclusivityController.h */,
-				2AA2BD577CF579055543C98A8C9AA3E1 /* ExclusivityController.m */,
-				A8B02E173EE6CE923951B8734FDA47B7 /* GroupTask.h */,
-				7C453A64CBAD5F06FA77F456843B79D3 /* GroupTask.m */,
-				09AC33829C15C517EA274E0CA0B071A3 /* Task.h */,
-				1E827646B80E0BFD18EFAA4ABD61972F /* Task.m */,
-				AF05171BB4643AD5994E61EB4A522821 /* TaskCondition.h */,
-				EF7ABD7D3F7313E6E36B1AB1ED16D7B6 /* TaskCondition.m */,
-				5B4FE53CCCFFE51D57534246D99C1E3E /* TaskObserver.h */,
-				5A1FE265EDBC6EE7056715494F96F885 /* TaskObserver.m */,
-				9F0BA6107B419920B9BDE6BAFCB260D7 /* TaskQueue.h */,
-				D458DC57580FDE4BB666ADACFD8B9859 /* TaskQueue.m */,
-				61913019C86EBE6D091445BC28F334C3 /* Pod */,
-				D598919EA0DFCD1274787C6EAF675428 /* Support Files */,
+				F4EC7BFDC0FDD50C018C0E66CCED58FE /* TaskObjc */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F4EC7BFDC0FDD50C018C0E66CCED58FE /* TaskObjc */ = {
+			isa = PBXGroup;
+			children = (
+				FF63BA2C7E745A8AA6366B488E9085D2 /* BlockTask.h */,
+				A8ACFAE2597500D7EA7B1E2EFBC1223D /* BlockTask.m */,
+				FCC1C422671CDF7E9BD40AFDFCF5E880 /* ExclusivityController.h */,
+				4FC6B93BF1CAC374B7C51F5C1685E571 /* ExclusivityController.m */,
+				0BA0400C5EE48CEFD0082C535EEB61C1 /* GroupTask.h */,
+				A90CC0E532864DA62D5D6F4562DE3A74 /* GroupTask.m */,
+				B428471B4CA39DA6EDA0D9D91CC12120 /* Task.h */,
+				A09081E6D2926D67473497543E253324 /* Task.m */,
+				229FA750E63311EE5F2779268BCA881F /* TaskCondition.h */,
+				2675A3C18A5A0AEF1C0F90640B8EFE7A /* TaskCondition.m */,
+				0562A982BD5829C20A56C45145128B53 /* TaskObjc.h */,
+				EDBEEAB1F50988AB480AA0AE22B24EE6 /* TaskObserver.h */,
+				AF8771C3FA888F88C4CD8B7EFE0C636C /* TaskObserver.m */,
+				B70114CAE0D9CDB7F10DB9C47100A6D4 /* TaskQueue.h */,
+				1685017164F5C5150BE6FAB27332771D /* TaskQueue.m */,
+				AF8AB24B429CD49B759C993FDCCD2927 /* Pod */,
+				4685427EC9B6549C0D6633D52913DB9A /* Support Files */,
 			);
 			name = TaskObjc;
 			path = ../..;
@@ -265,18 +277,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		151C1D5DBFE6F78258D7DE7AE8728C2E /* Headers */ = {
+		1974C8A8A58925C0890801EB27503497 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				964CE416439F19980E7CA624B98FBF79 /* BlockTask.h in Headers */,
-				D9928867399C43D8629DE51F12B781F6 /* ExclusivityController.h in Headers */,
-				8BEB5A70CCD93DF76C4D346ECE007D11 /* GroupTask.h in Headers */,
-				1BBAB156577D9DB973AFDE968E21A430 /* Task.h in Headers */,
-				B09829ACE919DF547668A29967121EAB /* TaskCondition.h in Headers */,
-				4C8D002CCBC034A3142AFD0BC8763BDC /* TaskObjc-umbrella.h in Headers */,
-				81D7760162CF98641DF81DBE887F7480 /* TaskObserver.h in Headers */,
-				4F559B27F06111135F9283D11ECC8E44 /* TaskQueue.h in Headers */,
+				FC5EB6967DDEB04E0254232C9FEB539F /* BlockTask.h in Headers */,
+				AF0029C22A2190B5B10275DBEB4C2081 /* ExclusivityController.h in Headers */,
+				7202F8534AD71EACE1458674ACD7FC7D /* GroupTask.h in Headers */,
+				8AFDE6027C7B1C941956C743357BFDD2 /* Task.h in Headers */,
+				AE87D0DA9231ADD89D78E14F705F598E /* TaskCondition.h in Headers */,
+				F491542BD16D282ABB4E8286173894BB /* TaskObjc.h in Headers */,
+				29F8273500FBAA6248C17620FF88EE25 /* TaskObjc-umbrella.h in Headers */,
+				4AB120E37648FD99818852C5F301C45E /* TaskObserver.h in Headers */,
+				B93424DF7A4574E70D87842DFC54A7B1 /* TaskQueue.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,11 +301,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		53A82331C30882918A3531BEF2AFDF99 /* Headers */ = {
+		80A2DE4D1A8D93B701730D484BD50DEE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E2DE19095200DE08C4ACE4E4C55CDE3 /* Pods-TaskObjc_Tests-umbrella.h in Headers */,
+				DF7E5B5952A1462FE3FF4097AAF5AFF5 /* Pods-TaskObjc_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,7 +324,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D8AC3C9150D66FE9D48F5EB57019325C /* PBXTargetDependency */,
+				5D9A2C507D65CF18F86ECA54123818D4 /* PBXTargetDependency */,
 			);
 			name = "Pods-TaskObjc_Example";
 			productName = Pods_TaskObjc_Example;
@@ -320,17 +333,18 @@
 		};
 		7354F3AD65595134F457B7A0E5FC0640 /* Pods-TaskObjc_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 24B09BB70ABD82B2EB33BE5D2B8D8CD3 /* Build configuration list for PBXNativeTarget "Pods-TaskObjc_Tests" */;
+			buildConfigurationList = 1931BD5D720AC2A5C791358E0E493498 /* Build configuration list for PBXNativeTarget "Pods-TaskObjc_Tests" */;
 			buildPhases = (
-				53A82331C30882918A3531BEF2AFDF99 /* Headers */,
-				23FDC952D2A07C9EC4378AF7750151DF /* Sources */,
-				076CAF03F26B688FB987CA0FA64C1BEC /* Frameworks */,
-				C8B8E28AB10DABA2E1A0507B500ECD12 /* Resources */,
+				80A2DE4D1A8D93B701730D484BD50DEE /* Headers */,
+				D9753895B1896116849502C45FE6596F /* Sources */,
+				EDA71C9F63494DD89B6A2E35D040B21B /* Frameworks */,
+				2031D2759DAA4146639A988090467953 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B51C6CECD78994AEF8F1608FA21997D2 /* PBXTargetDependency */,
+				9D31402E8B143DAADD8DBC68B181AB5F /* PBXTargetDependency */,
+				DC9A9FE051AD6370F6BF47864CD5F312 /* PBXTargetDependency */,
 			);
 			name = "Pods-TaskObjc_Tests";
 			productName = Pods_TaskObjc_Tests;
@@ -339,12 +353,12 @@
 		};
 		D3ADF48D6739E853AD3EE48B720BCF5A /* TaskObjc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 87CE03E437F5121C333333F535BB82A4 /* Build configuration list for PBXNativeTarget "TaskObjc" */;
+			buildConfigurationList = 257B675FE9B117C7F0FCCF53BCA7CE89 /* Build configuration list for PBXNativeTarget "TaskObjc" */;
 			buildPhases = (
-				151C1D5DBFE6F78258D7DE7AE8728C2E /* Headers */,
-				F9E77037B5A0BD4C6A9F5B7CD7F35265 /* Sources */,
-				5264866CB960F8218903378D6C0D1D29 /* Frameworks */,
-				683EE1BB92D416EF7BFFE0FA53E40E0B /* Resources */,
+				1974C8A8A58925C0890801EB27503497 /* Headers */,
+				795B1FB005C98E499D7D647658F59745 /* Sources */,
+				8124E0883D4A8C5F149AFCD43631D305 /* Frameworks */,
+				6BBAA62F488CD15B2BA0EE9243FDE58B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -385,6 +399,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2031D2759DAA4146639A988090467953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3C36EABE9CCE1BB3123008CF24392EF6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -392,14 +413,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		683EE1BB92D416EF7BFFE0FA53E40E0B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C8B8E28AB10DABA2E1A0507B500ECD12 /* Resources */ = {
+		6BBAA62F488CD15B2BA0EE9243FDE58B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -409,11 +423,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		23FDC952D2A07C9EC4378AF7750151DF /* Sources */ = {
+		795B1FB005C98E499D7D647658F59745 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A572FDDD04D2FAA45976CF3842BF81F1 /* Pods-TaskObjc_Tests-dummy.m in Sources */,
+				C66E137D283A8863F7360A6FAF6B738A /* BlockTask.m in Sources */,
+				514CDF04C1DEE12E383C47CB2D5C2D5A /* ExclusivityController.m in Sources */,
+				52F7D60E9733820AB1EF40554B7FAF27 /* GroupTask.m in Sources */,
+				4FB6E592A805DCA24A139BC1279637BE /* Task.m in Sources */,
+				3E9F9F7A454984E5BA43CE0910488DE2 /* TaskCondition.m in Sources */,
+				AEDAC7B7A5B7B3FBA330EA1A15418BA3 /* TaskObjc-dummy.m in Sources */,
+				FCFF295F6235295C5AD3C282717333A7 /* TaskObserver.m in Sources */,
+				9B15DAF5D42D105BBAA74F174B54FB39 /* TaskQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,39 +446,70 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9E77037B5A0BD4C6A9F5B7CD7F35265 /* Sources */ = {
+		D9753895B1896116849502C45FE6596F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21B5E34ACF97D79A6BC2328D05AF8E3B /* BlockTask.m in Sources */,
-				4725C98DCFAE62DB3F9145FF213EF978 /* ExclusivityController.m in Sources */,
-				36876D5970A01E8FC92E0B16598B90FC /* GroupTask.m in Sources */,
-				7CEDBE1FE084C6E349CEB29854E97756 /* Task.m in Sources */,
-				D984307C4C0B7ED8F755FEDCAC97AD3D /* TaskCondition.m in Sources */,
-				F54A5C3B6DD7E9CFF2BF2FC6E83219A9 /* TaskObjc-dummy.m in Sources */,
-				E1EC929DF0ECFA7AA90B0006BCFE0117 /* TaskObserver.m in Sources */,
-				7011321BD3A921D92E78BA2580954C45 /* TaskQueue.m in Sources */,
+				60018FDDCBB3B95DCC4561C1A92A5454 /* Pods-TaskObjc_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B51C6CECD78994AEF8F1608FA21997D2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-TaskObjc_Example";
-			target = 70E5C91DB0B0A35C865D154EB03F24D0 /* Pods-TaskObjc_Example */;
-			targetProxy = AEAE84A9804B57BE1A3DB9F30361E808 /* PBXContainerItemProxy */;
-		};
-		D8AC3C9150D66FE9D48F5EB57019325C /* PBXTargetDependency */ = {
+		5D9A2C507D65CF18F86ECA54123818D4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TaskObjc;
 			target = D3ADF48D6739E853AD3EE48B720BCF5A /* TaskObjc */;
-			targetProxy = 63AA2CB6461B39FE22951C3596EA31DD /* PBXContainerItemProxy */;
+			targetProxy = 3D85EE8F3AD1F908C27A58006D4B7920 /* PBXContainerItemProxy */;
+		};
+		9D31402E8B143DAADD8DBC68B181AB5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TaskObjc_Example";
+			target = 70E5C91DB0B0A35C865D154EB03F24D0 /* Pods-TaskObjc_Example */;
+			targetProxy = DB7C2D01970322E7F43EFD1CF1FAEA9C /* PBXContainerItemProxy */;
+		};
+		DC9A9FE051AD6370F6BF47864CD5F312 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TaskObjc;
+			target = D3ADF48D6739E853AD3EE48B720BCF5A /* TaskObjc */;
+			targetProxy = B0489BD802CC42300FE59D084E59BB67 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1E87467DD120175EA69AC838143E7F74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9663219B11351D206070112C902B1F74 /* Pods-TaskObjc_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskObjc_Tests/Pods-TaskObjc_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskObjc_Tests/Pods-TaskObjc_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -526,7 +578,7 @@
 		};
 		44510DF904A50B44798C57CA07DAF140 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C5EFE61D5280A21AFC22BF9383BEE80 /* Pods-TaskObjc_Example.release.xcconfig */;
+			baseConfigurationReference = 24F153EF489A4D417A4497E8D7B6B5EA /* Pods-TaskObjc_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -557,9 +609,9 @@
 			};
 			name = Release;
 		};
-		4D6174DCB2A39CE9AB84FF60BFEB4EC5 /* Release */ = {
+		73354689AD8BE936D7FE88D726CC9C25 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F057068821D939535A9DE04893A34F8 /* Pods-TaskObjc_Tests.release.xcconfig */;
+			baseConfigurationReference = 16ED8F6E3B0BF4E05858C3C1A4EC2D8F /* Pods-TaskObjc_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -570,12 +622,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TaskObjc_Tests/Pods-TaskObjc_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskObjc_Example/Pods-TaskObjc_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TaskObjc_Tests/Pods-TaskObjc_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskObjc_Example/Pods-TaskObjc_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -584,15 +636,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		65D0DE067DDEB4045AB13446751E82F2 /* Debug */ = {
+		C3A8E7A1B83D01C41017429111E5E43C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80C27DB0C1D21DDA7FAED4FFE0A6B0F4 /* TaskObjc.debug.xcconfig */;
+			baseConfigurationReference = 3E5FEBB0E404A416A56AC33F3E175703 /* TaskObjc.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -614,38 +665,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		73354689AD8BE936D7FE88D726CC9C25 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 271E46788E2C261D11627392BA5259BC /* Pods-TaskObjc_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TaskObjc_Example/Pods-TaskObjc_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TaskObjc_Example/Pods-TaskObjc_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -714,41 +733,9 @@
 			};
 			name = Release;
 		};
-		D2831887888AB91E0AE9B810500944ED /* Debug */ = {
+		F1BE4B850A8C3D70DCEFC9DC184CE7FF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 312E37767712E3AD2ADC9AFE06355531 /* Pods-TaskObjc_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TaskObjc_Tests/Pods-TaskObjc_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TaskObjc_Tests/Pods-TaskObjc_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F5113DCE6C1DFB6CB4BECE8EE04A24BD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB0248D19C0C1ED212E14DB9F231F730 /* TaskObjc.release.xcconfig */;
+			baseConfigurationReference = 67B4DF6C5D0548A12474647DA9B321F6 /* TaskObjc.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -777,14 +764,56 @@
 			};
 			name = Release;
 		};
+		FA926624CE7DFE00E39A70B73E17460F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55C921532AD660EA8483F70381D1C6AF /* Pods-TaskObjc_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskObjc_Tests/Pods-TaskObjc_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskObjc_Tests/Pods-TaskObjc_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		24B09BB70ABD82B2EB33BE5D2B8D8CD3 /* Build configuration list for PBXNativeTarget "Pods-TaskObjc_Tests" */ = {
+		1931BD5D720AC2A5C791358E0E493498 /* Build configuration list for PBXNativeTarget "Pods-TaskObjc_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2831887888AB91E0AE9B810500944ED /* Debug */,
-				4D6174DCB2A39CE9AB84FF60BFEB4EC5 /* Release */,
+				1E87467DD120175EA69AC838143E7F74 /* Debug */,
+				FA926624CE7DFE00E39A70B73E17460F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		257B675FE9B117C7F0FCCF53BCA7CE89 /* Build configuration list for PBXNativeTarget "TaskObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3A8E7A1B83D01C41017429111E5E43C /* Debug */,
+				F1BE4B850A8C3D70DCEFC9DC184CE7FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -794,15 +823,6 @@
 			buildConfigurations = (
 				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
 				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		87CE03E437F5121C333333F535BB82A4 /* Build configuration list for PBXNativeTarget "TaskObjc" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				65D0DE067DDEB4045AB13446751E82F2 /* Debug */,
-				F5113DCE6C1DFB6CB4BECE8EE04A24BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

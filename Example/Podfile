@@ -8,6 +8,6 @@ target 'TaskObjc_Example' do
   target 'TaskObjc_Tests' do
     inherit! :search_paths
 
-    
+    pod 'TaskObjc', :path => '../'
   end
 end

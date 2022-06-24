@@ -12,11 +12,12 @@
     "xtxh": "xtxh@outlook.com"
   },
   "source": {
-    "git": "https://github.com/xtxh/TaskObjc.git",
+    "git": "git@github.com:xtxh/TaskObjc.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "TaskObjc/Classes/**/*"
+  "source_files": "TaskObjc/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h"
 }

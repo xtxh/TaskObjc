@@ -15,6 +15,7 @@
 #import "GroupTask.h"
 #import "Task.h"
 #import "TaskCondition.h"
+#import "TaskObjc.h"
 #import "TaskObserver.h"
 #import "TaskQueue.h"
 
