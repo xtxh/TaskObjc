@@ -18,7 +18,7 @@ typedef NSBlockOperation BaseBlockTask;
 /// Instead of overriding start() and main() subclasses should override execute() and call finish() when the code has finished.
 /// `finish() `must be called whether the task completed successfully or in an error state. As long as these methods are called, all other state is managed automatically.
 ///
-/// Conditions are added to an task to establish criteria required in order for the task to successfully run.
+/// Conditions are added to a task to establish criteria required in order for the task to successfully run.
 /// For example a task that required location data could add a condition that made sure access had been granted to location services.
 /// Observers are added to a task and can react to the starting and ending of a task.
 /// For example an observer could start and stop an activity indicator while the task is executing.

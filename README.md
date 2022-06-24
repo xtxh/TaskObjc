@@ -4,6 +4,10 @@
 [![License](https://img.shields.io/cocoapods/l/TaskObjc.svg?style=flat)](https://cocoapods.org/pods/TaskObjc)
 [![Platform](https://img.shields.io/cocoapods/p/TaskObjc.svg?style=flat)](https://cocoapods.org/pods/TaskObjc)
 
+## Description
+基于NSOperation的任务管理工具。通过添加条件（condition）和观察者（observer）来扩展NSOperation，子类只需要调用`- (void) execute;`方法，并且执行`- (void) finishTaskWithErrors:(nullable NSArray<NSError *> *)errors;`，即可自动管理任务状态。
+
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
