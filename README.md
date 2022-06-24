@@ -7,6 +7,16 @@
 ## Description
 基于NSOperation的任务管理工具。通过添加条件（condition）和观察者（observer）来扩展NSOperation，子类只需要调用`- (void) execute;`方法，并且执行`- (void) finishTaskWithErrors:(nullable NSArray<NSError *> *)errors;`，即可自动管理任务状态。
 
+## Requirements
+
+## Installation
+
+TaskObjc is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'TaskObjc'
+```
 
 ## Example
 
@@ -119,17 +129,6 @@ To run the example project, clone the repo, and run `pod install` from the Examp
     NSLog(@"t1EndTime = %@, t2StartTime = %@, t2EndTime = %@, t3StartTime = %@", @(t1EndTime), @(t2StartTime), @(t2EndTime), @(t3StartTime));
 }
 
-```
-
-## Requirements
-
-## Installation
-
-TaskObjc is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'TaskObjc'
 ```
 
 ## Usage
