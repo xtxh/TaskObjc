@@ -1,16 +1,16 @@
 PODS:
-  - TaskObjc (0.1.0)
+  - TaskObjc (0.1.1)
 
 DEPENDENCIES:
-  - TaskObjc (from `../`)
+  - TaskObjc (~> 0.1.1)
 
-EXTERNAL SOURCES:
-  TaskObjc:
-    :path: "../"
+SPEC REPOS:
+  trunk:
+    - TaskObjc
 
 SPEC CHECKSUMS:
-  TaskObjc: cb5c4e4e809958e7136acaee7becf174814dff6d
+  TaskObjc: eeb49988de96404eb7a162d4ecb8eebb04fdaee6
 
-PODFILE CHECKSUM: f2cfec520858e36f3b3a0a3daaa8f26ec66ddcc9
+PODFILE CHECKSUM: f14d5d3c2da256cfd810a474e4338fe2d000fc0c
 
 COCOAPODS: 1.11.3
