@@ -16,7 +16,8 @@ Pod::Spec.new do |s|
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
-
+# git@github.com:xtxh/TaskObjc.git
+# https://github.com/xtxh/TaskObjc.git
   s.description      = <<-DESC
   继承于NSOperation，通过添加条件[condition]和观察者[observer]来扩展的任务管理工具。
                        DESC
@@ -25,7 +26,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'xtxh' => 'xtxh@outlook.com' }
-  s.source           = { :git => 'https://github.com/xtxh/TaskObjc.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:xtxh/TaskObjc.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
